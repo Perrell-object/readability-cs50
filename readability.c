@@ -60,7 +60,7 @@ void determine_count(string input)
 
 }
 
-//passing all variables to determine grade level
+//passing all variables to determine the grade level
 int grade_level(float letter, float word, float sent)
 {
     return round(0.0588 * ((100 / word_count) * letter_count) - 0.296 * ((100 / word_count) * sent_count) - 15.8);
